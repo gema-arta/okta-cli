@@ -17,6 +17,7 @@ package com.okta.cli;
 
 import com.okta.cli.commands.DumpCommand;
 import com.okta.cli.commands.Login;
+import com.okta.cli.commands.Logs;
 import com.okta.cli.commands.Register;
 import com.okta.cli.commands.apps.Apps;
 import com.okta.commons.lang.ApplicationInfo;
@@ -35,6 +36,7 @@ import java.util.List;
                 Register.class,
                 Login.class,
                 Apps.class,
+                Logs.class,
                 DumpCommand.class,
                 CommandLine.HelpCommand.class,
                 AutoComplete.GenerateCompletion.class})
